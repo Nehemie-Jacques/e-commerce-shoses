@@ -1,0 +1,9 @@
+#heart {
+    color: #071d49;
+  font-size: 3rem;
+}
+
+#nav-icon > a > i:hover {
+    color: #ff9f1a;
+    transition: all .3s ease-in-out;
+}
