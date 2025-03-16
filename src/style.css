@@ -7,3 +7,8 @@
     color: #ff9f1a;
     transition: all .3s ease-in-out;
 }
+
+#car  {
+  color: #ff9f1a;
+  font-size: 5rem;
+}
