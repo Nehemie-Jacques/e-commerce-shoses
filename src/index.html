@@ -2,8 +2,8 @@
 <html class="text-[10px] overflow-x-hidden" lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>e-commerce-projet</title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <style type="text/tailwindcss">
@@ -11,36 +11,42 @@
             --first-color : red ; 
         } */
     </style>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 
 <body class="font-[Poppins] overflow-x-hidden w-[100vw] h-[100vh]">
-
-
     <!-- ! codage de la nav barre -->
 
     <header class="fixed px-[15rem] w-full h-[10rem] bg-white drop-shadow-lg flex items-center gap-[20rem]">
         <a href="" class="flex gap-5 items-center">
             <h1 class="text-[3.5rem] font-medium text-[#071d49]">NIKE</h1>
-            <img src="./img/logo nike.svg" alt="" class="w-[12rem] h-[8rem]">
+            <img src="./img/logo nike.svg" alt="" class="w-[12rem] h-[8rem]" />
         </a>
         <nav class="flex items-center gap-[3rem]">
             <a href="">
-                <h1 class="text-[2rem] text-[#071d49] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer 
-                    hover:-translate-y-1">HOME</h1>
+                <h1
+                    class="text-[2rem] text-[#071d49] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">
+                    HOME
+                </h1>
             </a>
             <a href="">
-                <h1 class="text-[2rem] text-[#071d49] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer 
-                    hover:-translate-y-1">PRODUCTS</h1>
+                <h1
+                    class="text-[2rem] text-[#071d49] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">
+                    PRODUCTS
+                </h1>
             </a>
             <a href="">
-                <h1 class="text-[2rem] text-[#071d49] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer 
-                    hover:-translate-y-1">FEARTURED</h1>
+                <h1
+                    class="text-[2rem] text-[#071d49] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">
+                    FEARTURED
+                </h1>
             </a>
             <a href="">
-                <h1 class="text-[2rem] text-[#071d49] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer 
-                    hover:-translate-y-1">REVIEW</h1>
+                <h1
+                    class="text-[2rem] text-[#071d49] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">
+                    REVIEW
+                </h1>
             </a>
         </nav>
         <div class="flex items-center gap-[2rem]" id="nav-icon">
@@ -53,17 +59,23 @@
     <!-- !codage de la nike metcom shoes -->
 
     <section class="pt-[10rem] mx-[15rem] w-full h-full">
-
         <div class="block">
             <div class="flex gap-[1rem] items-center min-h-[90vh] bg-red-200">
                 <div class="flex flex-col gap-[1.5rem]">
                     <p class="text-[2rem] text-[#ff9f1a]">Nike Red Shoes</p>
-                    <h1 class="text-[3.5rem] font-bold text-[#071d49]">Nike Metcon Shoes</h1>
-                    <p class="text-[2rem] text-[#333333]">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> 
-                        Repellat maiores et eos eaque veritatis aut laboriosam earum <br> dolorem iste atque.
+                    <h1 class="text-[3.5rem] font-bold text-[#071d49]">
+                        Nike Metcon Shoes
+                    </h1>
+                    <p class="text-[2rem] text-[#333333]">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+                        Repellat maiores et eos eaque veritatis aut laboriosam earum
+                        <br />
+                        dolorem iste atque.
                     </p>
-                    <button class="h-[3.5rem] w-[16rem] text-[1.5rem] text-[#071d49] font-[600] border border-2 border-[#071d49] 
-                    rounded-lg hover:text-white hover:bg-[#ff9f1a] delay-300 transition ease-in-out">Add To Cart</button>
+                    <button
+                        class="h-[3.5rem] w-[16rem] text-[1.5rem] text-[#071d49] font-[600] border border-2 border-[#071d49] rounded-lg hover:text-white hover:bg-[#ff9f1a] delay-300 transition ease-in-out">
+                        Add To Cart
+                    </button>
                 </div>
             </div>
         </div>
@@ -71,86 +83,182 @@
 
     <!-- !codage de la pre-latest products -->
 
-    <section class="flex items-center justify-between px-[5rem] py-[3rem] [25rem] mx-[15rem] my-[6rem] rounded-xl bg-[#f9f9f9] border border-1 border-[rgba(0,0,0,.1)]">
+    <section
+        class="flex items-center justify-between px-[5rem] py-[3rem] [25rem] mx-[15rem] my-[6rem] rounded-xl bg-[#f9f9f9] border border-1 border-[rgba(0,0,0,.1)]">
         <div class="flex flex-col gap-[1.5rem] items-center">
             <i class="fas fa-shipping-fast" id="car"></i>
             <h1 class="text-[2.3rem] font-bold text-[#071d49]">Fast Delivery</h1>
-            <p class="text-[1.7rem] text-[#333333] text-center">Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Illum, fugit.</p>
+            <p class="text-[1.7rem] text-[#333333] text-center">
+                Lorem ipsum dolor sit, amet consectetur <br />
+                adipisicing elit. Illum, fugit.
+            </p>
         </div>
         <div class="flex flex-col gap-[1.5rem] items-center">
             <i class="fas fa-undo" id="car"></i>
-            <h1 class="text-[2.3rem] font-bold text-[#071d49]">10 Days Replacements</h1>
-            <p class="text-[1.7rem] text-[#333333] text-center">Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Illum, fugit.</p>
+            <h1 class="text-[2.3rem] font-bold text-[#071d49]">
+                10 Days Replacements
+            </h1>
+            <p class="text-[1.7rem] text-[#333333] text-center">
+                Lorem ipsum dolor sit, amet consectetur <br />
+                adipisicing elit. Illum, fugit.
+            </p>
         </div>
         <div class="flex flex-col gap-[1.5rem] items-center">
             <i class="fas fa-headset" id="car"></i>
             <h1 class="text-[2.3rem] font-bold text-[#071d49]">24 x 7 Support</h1>
-            <p class="text-[1.7rem] text-[#333333] text-center">Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Illum, fugit.</p>
+            <p class="text-[1.7rem] text-[#333333] text-center">
+                Lorem ipsum dolor sit, amet consectetur <br />
+                adipisicing elit. Illum, fugit.
+            </p>
         </div>
     </section>
 
+    <!-- !codage de la customer's review -->
+
+    <section class="flex gap-5 items-center mx-[15rem]">
+        <div
+            class="flex flex-col items-center gap-5 w-[40rem] h-[53rem] py-[3rem] px-[2.3rem] rounded-xl bg-[#f9f9f9] border border-1 border-[rgba(0,0,0,.1)]">
+            <img src="./img/pic1.png" alt="" class="h-[18rem] rounded-[50%]" />
+            <h1 class="text-[2.5rem] font-bold text-[#071d49]">John Deo</h1>
+            <p class="text-[1.9rem] text-[#333333] text-center">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, quos
+                eum. Laborum aut a consequatur ducimus, molestias possimus quisquam
+                rerum temporibus ipsum voluptate accusamus, unde ab asperiores?
+                Exercitationem, unde rem.
+            </p>
+            <div class="flex items-center gap-3" id="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+
+        <div
+            class="flex flex-col items-center gap-5 w-[40rem] h-[53rem] py-[3rem] px-[2.3rem] rounded-xl bg-[#f9f9f9] border border-1 border-[rgba(0,0,0,.1)]">
+            <img src="./img/pic1.png" alt="" class="h-[18rem] rounded-[50%]" />
+            <h1 class="text-[2.5rem] font-bold text-[#071d49]">John Deo</h1>
+            <p class="text-[1.9rem] text-[#333333] text-center">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, quos
+                eum. Laborum aut a consequatur ducimus, molestias possimus quisquam
+                rerum temporibus ipsum voluptate accusamus, unde ab asperiores?
+                Exercitationem, unde rem.
+            </p>
+            <div class="flex items-center gap-3" id="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+
+        <div
+            class="flex flex-col items-center gap-5 w-[40rem] h-[53rem] py-[3rem] px-[2.3rem] rounded-xl bg-[#f9f9f9] border border-1 border-[rgba(0,0,0,.1)]">
+            <img src="./img/pic1.png" alt="" class="h-[18rem] rounded-[50%]" />
+            <h1 class="text-[2.5rem] font-bold text-[#071d49]">John Deo</h1>
+            <p class="text-[1.9rem] text-[#333333] text-center">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, quos
+                eum. Laborum aut a consequatur ducimus, molestias possimus quisquam
+                rerum temporibus ipsum voluptate accusamus, unde ab asperiores?
+                Exercitationem, unde rem.
+            </p>
+            <div class="flex items-center gap-3" id="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+    </section>
 
     <!-- !codage de la Montley Newsletter -->
 
-    <section class="flex flex-col gap-[2rem] items-center justify-center px-[15rem] mt-[3rem] mx-[15rem] h-[30rem] rounded-xl bg-[#f9f9f9] border border-1 border-[rgba(0,0,0,.1)]">
+    <section
+        class="flex flex-col gap-[2rem] items-center justify-center px-[15rem] mt-[3rem] mx-[15rem] h-[30rem] rounded-xl bg-[#f9f9f9] border border-1 border-[rgba(0,0,0,.1)]">
         <h1 class="text-[3.5rem] font-bold text-[#071d49]">Montley Newsletter</h1>
         <p class="text-[2rem] font-regular text-[#333333] text-center">
-            Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Earum ullam veniam at itaque <br> culpa hic corporis saepe dicta doloremque nihil.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum ullam
+            veniam at itaque <br />
+            culpa hic corporis saepe dicta doloremque nihil.
         </p>
         <div class="relative flex justify-between h-[5rem] w-[60rem] border border-2 border-[#071d49]">
-            <hr class="absolute left-[47.5rem] h-[4.8rem] border border-1 border-[#071d49]">
-            <input type="text" id="email" name="email" required="required" placeholder="enter your email" class="text-[2rem] border-none outline-none pl-[2rem] ">
-            <button class="text-[#071d49] text-[2.5rem] h-full w-[12rem] font-500 flex justify-center items-center cursor-pointer hover:text-white 
-                    hover:bg-[#ff9f1a] transition delay-300 ease-in-out">send</button>
-
+            <hr class="absolute left-[47.5rem] h-[4.8rem] border border-1 border-[#071d49]" />
+            <input type="text" id="email" name="email" required="required" placeholder="enter your email"
+                class="text-[2rem] border-none outline-none pl-[2rem]" />
+            <button
+                class="text-[#071d49] text-[2.5rem] h-full w-[12rem] font-500 flex justify-center items-center cursor-pointer hover:text-white hover:bg-[#ff9f1a] transition delay-300 ease-in-out">
+                send
+            </button>
         </div>
     </section>
 
     <!-- !codage du footer -->
 
-    <footer class="flex flex-col gap-[2rem] py-[1rem] bg-[#f9f9f9] border border-1 border-[rgba(0,0,0,.1)] rounded-xl mx-[15rem] 
-            h-[33rem] my-[3rem]">
-            <div class="flex items-center justify-between mx-[5em]">
-                <div class="flex flex-col gap-[1.5rem]">
-                    <h1 class="text-[3rem] font-bold text-[#071d49]">Our Stores</h1>
-                    <a href="" class="text-[2rem] text-[#666] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">Cameroun</a>
-                    <a href="" class="text-[2rem] text-[#666] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">USA</a>
-                    <a href="" class="text-[2rem] text-[#666] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">Japon</a>
-                    <a href="" class="text-[2rem] text-[#666] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">Senegal</a>
-                </div>
-
-                <div class="flex flex-col gap-[1.5rem]">
-                    <h1 class="text-[3rem] font-bold text-[#071d49]">Quick Links</h1>
-                    <a href="" class="text-[2rem] text-[#666] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">Home</a>
-                    <a href="" class="text-[2rem] text-[#666] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">Produits</a>
-                    <a href="" class="text-[2rem] text-[#666] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">Feartured</a>
-                    <a href="" class="text-[2rem] text-[#666] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">Review</a>
-                </div>
-
-                <div class="flex flex-col gap-[1.5rem]">
-                    <h1 class="text-[3rem] font-bold text-[#071d49]">Extra Links</h1>
-                    <a href="" class="text-[2rem] text-[#666] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">My Account</a>
-                    <a href="" class="text-[2rem] text-[#666] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">My Favorite</a>
-                    <a href="" class="text-[2rem] text-[#666] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">My Orders</a>
-                    <a href="" class="text-[2rem] text-[#666] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">Newsletter</a>
-                </div>
-
-                <div class="flex flex-col gap-[1.5rem]">
-                    <h1 class="text-[3rem] font-bold text-[#071d49]">Follow Us</h1>
-                    <a href="" class="text-[2rem] text-[#666] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">Facebook</a>
-                    <a href="" class="text-[2rem] text-[#666] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">Twiter</a>
-                    <a href="" class="text-[2rem] text-[#666] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">Instagram</a>
-                    <a href="" class="text-[2rem] text-[#666] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">Linkden</a>
-                </div>
+    <footer
+        class="flex flex-col gap-[2rem] py-[1rem] bg-[#f9f9f9] border border-1 border-[rgba(0,0,0,.1)] rounded-xl mx-[15rem] h-[33rem] my-[3rem]">
+        <div class="flex items-center justify-between mx-[5em]">
+            <div class="flex flex-col gap-[1.5rem]">
+                <h1 class="text-[3rem] font-bold text-[#071d49]">Our Stores</h1>
+                <a href=""
+                    class="text-[2rem] text-[#666] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">Cameroun</a>
+                <a href=""
+                    class="text-[2rem] text-[#666] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">USA</a>
+                <a href=""
+                    class="text-[2rem] text-[#666] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">Japon</a>
+                <a href=""
+                    class="text-[2rem] text-[#666] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">Senegal</a>
             </div>
 
-            <hr class=" w-[95rem] mx-[5rem] border border-[.10rem] border-[rgba(0,0,0,.1)]">
+            <div class="flex flex-col gap-[1.5rem]">
+                <h1 class="text-[3rem] font-bold text-[#071d49]">Quick Links</h1>
+                <a href=""
+                    class="text-[2rem] text-[#666] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">Home</a>
+                <a href=""
+                    class="text-[2rem] text-[#666] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">Produits</a>
+                <a href=""
+                    class="text-[2rem] text-[#666] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">Feartured</a>
+                <a href=""
+                    class="text-[2rem] text-[#666] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">Review</a>
+            </div>
 
-            <h1 class="text-[2rem] text-[#999999] text-center">Created by 
-                <span class="text-[2rem] text-[#ff9f1a]">Coding Team</span>
-                | all rights reserved
-            </h1>
+            <div class="flex flex-col gap-[1.5rem]">
+                <h1 class="text-[3rem] font-bold text-[#071d49]">Extra Links</h1>
+                <a href=""
+                    class="text-[2rem] text-[#666] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">My
+                    Account</a>
+                <a href=""
+                    class="text-[2rem] text-[#666] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">My
+                    Favorite</a>
+                <a href=""
+                    class="text-[2rem] text-[#666] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">My
+                    Orders</a>
+                <a href=""
+                    class="text-[2rem] text-[#666] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">Newsletter</a>
+            </div>
+
+            <div class="flex flex-col gap-[1.5rem]">
+                <h1 class="text-[3rem] font-bold text-[#071d49]">Follow Us</h1>
+                <a href=""
+                    class="text-[2rem] text-[#666] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">Facebook</a>
+                <a href=""
+                    class="text-[2rem] text-[#666] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">Twiter</a>
+                <a href=""
+                    class="text-[2rem] text-[#666] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">Instagram</a>
+                <a href=""
+                    class="text-[2rem] text-[#666] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">Linkden</a>
+            </div>
+        </div>
+
+        <hr class="w-[95rem] mx-[5rem] border border-[.10rem] border-[rgba(0,0,0,.1)]" />
+
+        <h1 class="text-[2rem] text-[#999999] text-center">
+            Created by
+            <span class="text-[2rem] text-[#ff9f1a]">Coding Team</span>
+            | all rights reserved
+        </h1>
     </footer>
 
     <script src="./input.js"></script>
