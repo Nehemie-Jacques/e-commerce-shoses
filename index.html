@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>e-commerce-projet</title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <style type="text/tailwindcss">
         /* @theme {
             --first-color : red ; 
@@ -18,7 +19,7 @@
 <body class="font-[Poppins] overflow-x-hidden w-[100vw] h-[100vh]">
     <!-- ! codage de la nav barre -->
 
-    <header class="fixed px-[15rem] w-full h-[10rem] bg-white drop-shadow-lg flex items-center gap-[20rem]">
+    <header class="fixed px-[15rem] w-full h-[10rem] bg-white drop-shadow-lg flex items-center gap-[20rem] absolute z-10">
         <a href="" class="flex gap-5 items-center">
             <h1 class="text-[3.5rem] font-medium text-[#071d49]">NIKE</h1>
             <img src="./assets/img/logo nike.svg" alt="" class="w-[12rem] h-[8rem]" />
@@ -271,63 +272,75 @@
             <span class="text-[4rem] font-[550] text-[#ff9f1a]">REVIEW</span>
         </h1>
 
-        <div class="flex gap-5 items-center mx-[15rem]">
-            <div
-                class="flex flex-1 flex-col items-center gap-5 w-[40rem] h-[53rem] py-[3rem] px-[2.3rem] rounded-xl bg-[#f9f9f9] border border-1 border-[rgba(0,0,0,.1)]">
-                <img src="./assets/img/pic1.png" alt="" class="h-[18rem] rounded-[50%]" />
-                <h1 class="text-[2.5rem] font-bold text-[#071d49]">Gonzales Ricardo</h1>
-                <p class="text-[1.9rem] text-[#333333] text-center">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, quos
-                    eum. Laborum aut a consequatur ducimus, molestias possimus quisquam
-                    rerum temporibus ipsum voluptate accusamus, unde ab asperiores?
-                    Exercitationem, unde rem.
-                </p>
-                <div class="flex items-center gap-3" id="star">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
+        <div class="flex gap-5 items-center mx-[15rem] mySwiper">
+            <div class="flex gap-5 items-center swiper-wrapper">
+                <div
+                    class="flex flex-1 flex-col items-center gap-5 w-[40rem] h-[53rem] py-[3rem] px-[2.3rem] 
+                    rounded-xl bg-[#f9f9f9] border border-1 border-[rgba(0,0,0,.1)]
+                    swiper-slide">
+                    <img src="./assets/img/pic1.png" alt="" class="h-[18rem] rounded-[50%]" />
+                    <h1 class="text-[2.5rem] font-bold text-[#071d49]">Gonzales Ricardo</h1>
+                    <p class="text-[1.9rem] text-[#333333] text-center">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, quos
+                        eum. Laborum aut a consequatur ducimus, molestias possimus quisquam
+                        rerum temporibus ipsum voluptate accusamus, unde ab asperiores?
+                        Exercitationem, unde rem.
+                    </p>
+                    <div class="flex items-center gap-3" id="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+
+                <div
+                    class="flex flex-1 flex-col items-center gap-5 w-[40rem] h-[53rem] py-[3rem] px-[2.3rem] 
+                    rounded-xl bg-[#f9f9f9] border border-1 border-[rgba(0,0,0,.1)]
+                    swiper-slide">
+                    <img src="./assets/img/pic2.png" alt="" class="h-[18rem] rounded-[50%]" />
+                    <h1 class="text-[2.5rem] font-bold text-[#071d49]">Marcus Ford</h1>
+                    <p class="text-[1.9rem] text-[#333333] text-center">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, quos
+                        eum. Laborum aut a consequatur ducimus, molestias possimus quisquam
+                        rerum temporibus ipsum voluptate accusamus, unde ab asperiores?
+                        Exercitationem, unde rem.
+                    </p>
+                    <div class="flex items-center gap-3" id="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div
+                    class="flex flex-1 flex-col items-center gap-5 w-[40rem] h-[53rem] py-[3rem] px-[2.3rem] 
+                    rounded-xl bg-[#f9f9f9] border border-1 border-[rgba(0,0,0,.1)]
+                    swiper-slide">
+                    <img src="./assets/img/pic3.png" alt="" class="h-[18rem] rounded-[50%]" />
+                    <h1 class="text-[2.5rem] font-bold text-[#071d49]">Max Carty</h1>
+                    <p class="text-[1.9rem] text-[#333333] text-center">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, quos
+                        eum. Laborum aut a consequatur ducimus, molestias possimus quisquam
+                        rerum temporibus ipsum voluptate accusamus, unde ab asperiores?
+                        Exercitationem, unde rem.
+                    </p>
+                    <div class="flex items-center gap-3" id="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
                 </div>
             </div>
 
-            <div
-                class="flex flex-1 flex-col items-center gap-5 w-[40rem] h-[53rem] py-[3rem] px-[2.3rem] rounded-xl bg-[#f9f9f9] border border-1 border-[rgba(0,0,0,.1)]">
-                <img src="./assets/img/pic2.png" alt="" class="h-[18rem] rounded-[50%]" />
-                <h1 class="text-[2.5rem] font-bold text-[#071d49]">Marcus Ford</h1>
-                <p class="text-[1.9rem] text-[#333333] text-center">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, quos
-                    eum. Laborum aut a consequatur ducimus, molestias possimus quisquam
-                    rerum temporibus ipsum voluptate accusamus, unde ab asperiores?
-                    Exercitationem, unde rem.
-                </p>
-                <div class="flex items-center gap-3" id="star">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-            </div>
-
-            <div
-                class="flex flex-1 flex-col items-center gap-5 w-[40rem] h-[53rem] py-[3rem] px-[2.3rem] rounded-xl bg-[#f9f9f9] border border-1 border-[rgba(0,0,0,.1)]">
-                <img src="./assets/img/pic3.png" alt="" class="h-[18rem] rounded-[50%]" />
-                <h1 class="text-[2.5rem] font-bold text-[#071d49]">Max Carty</h1>
-                <p class="text-[1.9rem] text-[#333333] text-center">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, quos
-                    eum. Laborum aut a consequatur ducimus, molestias possimus quisquam
-                    rerum temporibus ipsum voluptate accusamus, unde ab asperiores?
-                    Exercitationem, unde rem.
-                </p>
-                <div class="flex items-center gap-3" id="star">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
         </div>
     </section>
 
@@ -347,7 +360,7 @@
             <input type="text" id="email" name="email" required="required" placeholder="enter your email"
                 class="text-[2rem] border-none outline-none pl-[2rem]" />
             <button
-                class="text-[#071d49] text-[2.5rem] h-full w-[12rem] font-500 flex justify-center items-center cursor-pointer hover:text-white hover:bg-[#ff9f1a] transition delay-300 ease-in-out">
+                class="text-[#071d49] text-[2.5rem] h-full w-[12rem] font-500 flex justify-center items-center cursor-pointer hover:text-white hover:bg-[#ff9f1a] transition duration-500 ease">
                 send
             </button>
         </div>
@@ -418,6 +431,8 @@
             | all rights reserved
         </h1>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script src="./assets/script/input.js"></script>
 </body>
