@@ -1,4 +1,4 @@
-var swiper = new Swiper(".mySwiper", {
+/* var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
     grabCursor: true,
     loop: true,
@@ -10,4 +10,9 @@ var swiper = new Swiper(".mySwiper", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
-  });
+  }); */ 
+
+  let mouseover = document.querySelectorAll('#mouseover');
+  mouseover.addEventLisrtener('mouseover', () => {
+
+  })
