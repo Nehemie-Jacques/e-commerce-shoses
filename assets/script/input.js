@@ -12,7 +12,4 @@
     },
   }); */ 
 
-  let mouseover = document.querySelectorAll('#mouseover');
-  mouseover.addEventLisrtener('mouseover', () => {
-
-  })
+  
