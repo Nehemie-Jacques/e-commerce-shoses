@@ -3,6 +3,26 @@
   font-size: 3rem;
 }
 
+.direct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 6rem;
+  width: 6rem; */
+  padding: 3rem;
+  margin: 1rem;
+  color: #071d49;
+  border-radius: 50%;
+  border: solid .2rem #071d49;
+  transition: all .5s ease;
+}
+
+.direct:hover {
+  transform: translateY(-.5rem);
+  background-color: #ff9f1a;
+  color: #fff;
+}
+
 #nav-icon>a>i:hover {
   color: #ff9f1a;
   transition: all .3s ease-in-out;

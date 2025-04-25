@@ -29,25 +29,25 @@
             <img src="./assets/img/logo nike.svg" alt="" class="w-[12rem] h-[8rem]" />
         </a>
         <nav class="flex items-center gap-[3rem]">
-            <a href="">
+            <a href="#home">
                 <h1
                     class="text-[2rem] text-[#071d49] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">
                     HOME
                 </h1>
             </a>
-            <a href="">
+            <a href="#products">
                 <h1
                     class="text-[2rem] text-[#071d49] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">
                     PRODUCTS
                 </h1>
             </a>
-            <a href="">
+            <a href="#feartured">
                 <h1
                     class="text-[2rem] text-[#071d49] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">
                     FEARTURED
                 </h1>
             </a>
-            <a href="">
+            <a href="#review">
                 <h1
                     class="text-[2rem] text-[#071d49] transition delay-300 ease-in-out hover:text-[#ff9f1a] cursor-pointer hover:-translate-y-1">
                     REVIEW
@@ -63,9 +63,10 @@
 
     <!-- !codage de la nike metcom shoes -->
 
-    <section class="pt-[10rem] mx-[15rem] w-full h-full">
-        <div class="block">
-            <div class="flex gap-[1rem] items-center min-h-[90vh] bg-red-200">
+    <section class="pt-[10rem] mx-[15rem] w-full h-full swiper mySwiper">
+
+        <div class="swiper-wrapper">
+            <div class="flex gap-[1rem] items-center min-h-[90vh] bg-red-200 swiper-slide">
                 <div class="flex flex-col gap-[1.5rem]">
                     <p class="text-[2rem] text-[#ff9f1a]">Nike Red Shoes</p>
                     <h1 class="text-[3.5rem] font-bold text-[#071d49]">
@@ -82,8 +83,62 @@
                         Add To Cart
                     </button>
                 </div>
+                <div class="image">
+                    <!-- <img src="./assets/img/home-shoe-1.png" alt="">
+                    <img src="./assets/img/home-text-1.png" alt=""> -->
+                </div>
             </div>
+
+            <div class="flex gap-[1rem] items-center min-h-[90vh] bg-red-200 swiper-slide">
+                <div class="flex flex-col gap-[1.5rem]">
+                    <p class="text-[2rem] text-[#ff9f1a]">Nike Red Shoes</p>
+                    <h1 class="text-[3.5rem] font-bold text-[#071d49]">
+                        Nike Metcon Shoes
+                    </h1>
+                    <p class="text-[2rem] text-[#333333]">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+                        Repellat maiores et eos eaque veritatis aut laboriosam earum
+                        <br />
+                        dolorem iste atque.
+                    </p>
+                    <button
+                        class="h-[3.5rem] w-[16rem] text-[1.5rem] text-[#071d49] font-[600] border border-2 border-[#071d49] cursor-pointer rounded-lg hover:text-white hover:bg-[#ff9f1a] transition duration-500 ease">
+                        Add To Cart
+                    </button>
+                </div>
+                <div class="image">
+                    <!-- <img src="./assets/img/home-shoe-1.png" alt="">
+                    <img src="./assets/img/home-text-1.png" alt=""> -->
+                </div>
+            </div>
+
+            <div class="flex gap-[1rem] items-center min-h-[90vh] bg-red-200 swiper-slide">
+                <div class="flex flex-col gap-[1.5rem]">
+                    <p class="text-[2rem] text-[#ff9f1a]">Nike Red Shoes</p>
+                    <h1 class="text-[3.5rem] font-bold text-[#071d49]">
+                        Nike Metcon Shoes
+                    </h1>
+                    <p class="text-[2rem] text-[#333333]">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+                        Repellat maiores et eos eaque veritatis aut laboriosam earum
+                        <br />
+                        dolorem iste atque.
+                    </p>
+                    <button
+                        class="h-[3.5rem] w-[16rem] text-[1.5rem] text-[#071d49] font-[600] border border-2 border-[#071d49] cursor-pointer rounded-lg hover:text-white hover:bg-[#ff9f1a] transition duration-500 ease">
+                        Add To Cart
+                    </button>
+                </div>
+                <div class="image">
+                    <!-- <img src="./assets/img/home-shoe-1.png" alt="">
+                    <img src="./assets/img/home-text-1.png" alt=""> -->
+                </div>
+            </div>
+
         </div>
+        <div class="swiper-button-next direct"></div>
+        <div class="swiper-button-prev direct"></div>
+        <div class="swiper-pagination"></div>
     </section>
 
     <!-- !codage de la pre-latest products -->
@@ -321,7 +376,8 @@
                         class="featured-image-1 h-[6rem] p-[1rem] border border-1 border-[rgba(0,0,0,.5)] cursor-pointer rounded-[.3rem] hover:bg-[rgba(0,0,0,.2)] transition all duration-[.5s] ease">
                 </div>
                 <div class="w-[80%]">
-                    <img src="./assets/img/f-img-1.1.png" alt="" class="big-image-1 flex justify-center items-center w-[95%] transition all duration-[.5s] ease hover:scale-[1.1]">
+                    <img src="./assets/img/f-img-1.1.png" alt=""
+                        class="big-image-1 flex justify-center items-center w-[95%] transition all duration-[.5s] ease hover:scale-[1.1]">
                 </div>
             </div>
             <div class="flex flex-col flex-[1_1_40rem] gap-[1rem]">
@@ -366,7 +422,8 @@
                         class="featured-image-2 h-[6rem] p-[1rem] border border-1 border-[rgba(0,0,0,.5)] cursor-pointer rounded-[.3rem] hover:bg-[rgba(0,0,0,.2)] transition all duration-[.5s] ease">
                 </div>
                 <div class="w-[80%]">
-                    <img src="./assets/img/f-img-2.1.png" alt="" class="big-image-2 flex justify-center items-center w-[95%] transition all duration-[.5s] ease hover:scale-[1.1]">
+                    <img src="./assets/img/f-img-2.1.png" alt=""
+                        class="big-image-2 flex justify-center items-center w-[95%] transition all duration-[.5s] ease hover:scale-[1.1]">
                 </div>
             </div>
             <div class="flex flex-col flex-[1_1_40rem] gap-[1rem]">
@@ -411,7 +468,8 @@
                         class="featured-image-3 h-[6rem] p-[1rem] border border-1 border-[rgba(0,0,0,.5)] cursor-pointer rounded-[.3rem] hover:bg-[rgba(0,0,0,.2)] transition all duration-[.5s] ease">
                 </div>
                 <div class="w-[80%]">
-                    <img src="./assets/img/f-img-3.1.png" alt="" class="big-image-3 flex justify-center items-center w-[95%] transition all duration-[.5s] ease hover:scale-[1.1]">
+                    <img src="./assets/img/f-img-3.1.png" alt=""
+                        class="big-image-3 flex justify-center items-center w-[95%] transition all duration-[.5s] ease hover:scale-[1.1]">
                 </div>
             </div>
             <div class="flex flex-col flex-[1_1_40rem] gap-[1rem]">
@@ -607,8 +665,7 @@
         </h1>
     </footer>
 
-    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./assets/script/input.js"></script>
 </body>
 
